@@ -1,0 +1,8 @@
+# For running my package
+# Docker_BUILD
+# Perform in folder where docker file is located.
+docker build -t cruise_image .
+
+#Docker_RUN
+docker run -it --rm cruise_image
+
